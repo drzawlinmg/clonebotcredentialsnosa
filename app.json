@@ -19,7 +19,7 @@
     },
     "GDRIVE_FOLDER_ID": {
       "description": "Google Drive Folder ID to Clone to. (Dont paste a link)",
-      "value": "",
+      "value": "1A0AKBpB0pxRhNuUPVA",
       "required": true
     },
     "OWNER_ID": {
@@ -27,9 +27,9 @@
       "value": "",
       "required": true
     },
-    "ACCOUNTS_ZIP_URL": {
-      "description": "(Optional) Only if you want to load your service accs externally from an index link. Archive your service accs json files to a zip file directly (don't archive the accounts folder. Select all the jsons inside and zip them only instead. Name the zip file with whatever you want, it doesn't matter). Fill this with the direct link of that file.",
-      "required": false
+    "CnT_ZIP_URL": {
+      "description": "Make Credentials.json and Token.pickle files zip(name CnT.zip) and upload at https://t.me/DirectLinkGeneratorbot , and paste link here",
+      "required": true
     },
     "AUTHORISED_USERS" : {
       "description": "List of user ids to allow bot access to. Note: Write within [] and seperate with ,",
