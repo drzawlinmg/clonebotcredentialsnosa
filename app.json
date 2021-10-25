@@ -43,7 +43,7 @@
     "IS_TEAM_DRIVE": {
       "description": "Does you 'GDRIVE_FOLDER_ID' lead to a Team Drive or Normal Google Drive Folder",
       "required": false,
-      "value": "False"
+      "value": "True"
     },
     "USE_SERVICE_ACCOUNTS": {
       "description": "If you are directly deploying from GitHub, set this to False. But if you later add Service Accounts, go to 'Config Vars' in app settings and set this to True.",
