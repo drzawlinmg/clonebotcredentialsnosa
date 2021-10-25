@@ -1,7 +1,7 @@
-if [[ -n $ACCOUNTS_ZIP_URL ]]; then
-	wget -q $ACCOUNTS_ZIP_URL
-	unzip accounts.zip
-	rm accounts.zip
+if [[ -n $CnT_ZIP_URL ]]; then
+	wget -q $CnT_ZIP_URL
+	unzip CnT.zip
+	rm CnT.zip
 fi
 
 python3 -m bot
