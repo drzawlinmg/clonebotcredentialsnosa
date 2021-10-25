@@ -14,15 +14,15 @@ REPO_LINK = "https://github.com/jagrit007/Telegram-CloneBot"
 
 @run_async
 def start(update, context):
-    sendMessage("Hello! Please send me a Google Drive Shareable Link to Clone to your Drive!" \
-        "\nSend /help for checking all available commands.",
+    sendMessage("စသုံးနိုင်ပါသည်။ more on https://t.me/BotTutorialsMM" \
+        "\nကူးနည်း https://t.me/BotTutorialsMM/95 ဒီမှာပါ။",
     context.bot, update, 'Markdown')
     # ;-;
 
 @run_async
 def helper(update, context):
     sendMessage("Here are the available commands of the bot\n\n" \
-        "*Usage:* `/clone <link> [DESTINATION_ID]`\n*Example:* \n1. `/clone https://drive.google.com/drive/u/1/folders/0AO-ISIXXXXXXXXXXXX`\n2. `/clone 0AO-ISIXXXXXXXXXXXX`" \
+        "*ကူးနည်း* `https://t.me/BotTutorialsMM/95`\n*ဆက်သွယ်ရန်* \n1. `https://t.me/Dr007Bot`\n2. `/clone 0AO-ISIXXXXXXXXXXXX`" \
             "\n*DESTIONATION_ID* is optional. It can be either link or ID to where you wish to store a particular clone." \
             "\n\nYou can also *ignore folders* from clone process by doing the following:\n" \
                 "`/clone <FOLDER_ID> [DESTINATION] [id1,id2,id3]`\n In this example: id1, id2 and id3 would get ignored from cloning\nDo not use <> or [] in actual message." \
